@@ -15,9 +15,9 @@ public class HUD : MonoBehaviour
     public bool Cap;
 
     private void Start()
-    {
+    { 
         //QualitySettings.vSyncCount = 1;
-        TargetFPS = 80;
+        //TargetFPS = 80;
         //if (Cap)
         {
             SetFrameRateLimit(TargetFPS);
